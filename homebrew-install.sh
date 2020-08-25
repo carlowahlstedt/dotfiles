@@ -3,5 +3,5 @@
 brew install kubectx
 brew install k9s
 brew install eksctl
-
+brew install watch
 
