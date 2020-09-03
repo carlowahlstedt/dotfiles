@@ -7,5 +7,6 @@ brew install watch
 
 
 brew cask install rocket
+brew cask install krisp
 
 
