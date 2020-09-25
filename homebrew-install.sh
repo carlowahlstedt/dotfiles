@@ -28,6 +28,7 @@ brew install sqlite
 brew install youtube-dl
 brew install terminal-notifier
 brew install sops
+brew install docker
 
 brew tap domt4/autoupdate
 brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
@@ -100,3 +101,6 @@ sudo pip install --upgrade pip
 open /Applications/Rectangle.app
 open /Applications/Dozer.app
 open /Applications/BetterTouchTool.app
+open "/Applications/Brave Browser.app"
+open /Applications/docker.app
+open "/Applications/1Password 7.app"
