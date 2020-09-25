@@ -72,7 +72,7 @@ brew cask install dozer
 brew cask install rocket
 brew cask install krisp
 brew cask install BetterTouchTool
-brew cask install zoom
+brew cask install zoomus
 
 #fonts
 brew tap homebrew/cask-fonts
