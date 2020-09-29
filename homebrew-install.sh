@@ -29,6 +29,7 @@ brew install youtube-dl
 brew install terminal-notifier
 brew install sops
 brew install docker
+brew install svn
 
 brew tap domt4/autoupdate
 brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
