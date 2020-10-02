@@ -71,6 +71,7 @@ brew cask install macdown
 brew cask install vagrant
 brew cask install wireshark
 brew cask install dozer
+brew cask install microsoft-edge
 brew cask install rocket
 brew cask install krisp
 brew cask install BetterTouchTool
