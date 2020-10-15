@@ -1,0 +1,2 @@
+echo 'removing from quarantine: ' $1
+sudo xattr -r -d com.apple.quarantine "/Applications/${1}.app"
