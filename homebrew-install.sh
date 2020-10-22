@@ -5,11 +5,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 #install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# copy from where ever my script is
+brew install romkatv/powerlevel10k/powerlevel10k
+echo 'source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
+
 brew install kubectx
+brew install awscli
 brew install k9s
 brew install eksctl
 brew install kubectl
+brew install gh
 brew install helm
 brew install watch
 brew install octant
@@ -17,6 +21,7 @@ brew install git
 brew install git-credential-manager
 brew install azure-cli
 brew install go
+brew install magic-wormhole
 brew install node
 brew install openssl
 brew install angular-cli
