@@ -39,6 +39,7 @@ brew install poetry
 brew install skaffold
 brew install rmtrash
 brew install terminal-notifier
+brew install typescript
 
 brew tap domt4/autoupdate
 brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
