@@ -35,6 +35,10 @@ brew install terminal-notifier
 brew install sops
 brew install docker
 brew install svn
+brew install poetry
+brew install skaffold
+brew install rmtrash
+brew install terminal-notifier
 
 brew tap domt4/autoupdate
 brew autoupdate --start 43200 --upgrade --cleanup --enable-notification
