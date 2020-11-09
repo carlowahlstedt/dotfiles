@@ -29,6 +29,7 @@ brew install watchman
 brew install ansible
 brew install ffmpeg
 brew install packer
+brew install rg
 brew install sqlite
 brew install youtube-dl
 brew install terminal-notifier
