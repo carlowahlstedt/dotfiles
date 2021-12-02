@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 12,
+        "colorSelected" : "#97523AFF",
+        "font" : "System Light",
+        "color" : "#056EDDFF"
+      },
+      "shortcut" : {
+        "size" : 14,
+        "colorSelected" : "#FFCD00FF",
+        "font" : "System",
+        "color" : "#0781FFFF"
+      },
+      "backgroundSelected" : "#4E537966",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#F26B3AFF",
+        "font" : "System",
+        "color" : "#BEBFBEFF"
+      },
+      "iconPaddingHorizontal" : 10,
+      "paddingVertical" : 10,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 2,
+      "background" : "#272827FF",
+      "spacing" : 10,
+      "text" : {
+        "size" : 32,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#FEFFFEFF"
+      },
+      "backgroundSelected" : "#00B0E9FF"
+    },
+    "window" : {
+      "color" : "#272827FF",
+      "paddingHorizontal" : 0,
+      "width" : 780,
+      "borderPadding" : 0,
+      "borderColor" : "#00000000",
+      "blur" : 40,
+      "roundness" : 12,
+      "paddingVertical" : 10
+    },
+    "credit" : "Doug C. Hardester (r3volution11)",
+    "separator" : {
+      "color" : "#3A3E5700",
+      "thickness" : 2
+    },
+    "scrollbar" : {
+      "color" : "#919292FF",
+      "thickness" : 6
+    },
+    "name" : "Material Palenight"
+  }
+}
