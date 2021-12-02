@@ -17,6 +17,8 @@ export ZSH="/Users/jameswahlstedt/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="powerlevel9k/powerlevel9k"
 
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
     custom_me dir_writable dir vcs newline
 )
@@ -27,7 +29,7 @@ POWERLEVEL9K_MODE="nerdfont-complete"
 
 
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time root_indicator)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time root_indicator aws vpn_ip public_ip)
 POWERLEVEL9K_TIME_FORMAT="%D{%m.%d \uf073  %H:%M:%S}"
 
 POWERLEVEL9K_LEFT_SEGMENT_SEPARATOR=$'\uE0C4'
@@ -110,6 +112,20 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+source /Users/cwahlstedt/.vim/themes/sonokai-0.3.0/zsh/.zsh-theme-sonokai-default
+export PURE_POWER_MODE=modern    # use nerdfont characters in the prompt
+
+alias kx='kubectx'
+alias kn='kubens'
+
+alias docker-prune='docker system prune'
+
+export PATH=$PATH:~/src/scripts
+export PATH=$PATH:/usr/local/bin/aws_completer
+export DOCKER_BUILDKIT=1
+
+export HOMEBREW_AUTO_UPDATE_SECS="86400"
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -137,16 +153,19 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# tabtab source for packages
+# uninstall by removing these lines
+[[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
 
 # add autocomplete for az cli
 autoload -U +X bashcompinit && bashcompinit
 source /usr/local/etc/bash_completion.d/az
 
-#alias k='kubectl'
-
-#source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
-
-export HOMEBREW_AUTO_UPDATE_SECS="86400"
-
-S#zprof
+#zprof
