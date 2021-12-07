@@ -168,4 +168,8 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 autoload -U +X bashcompinit && bashcompinit
 source /usr/local/etc/bash_completion.d/az
 
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+
 #zprof
+
