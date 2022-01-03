@@ -110,6 +110,9 @@ sudo easy_install pip
 # Update pip
 sudo pip install --upgrade pip
 
+pip install kube-shell
+
+
 # start apps
 open /Applications/Rectangle.app
 open /Applications/Dozer.app
