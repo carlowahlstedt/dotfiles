@@ -1,0 +1,23 @@
+{
+  "model": "opus[1m]",
+  "tui": "fullscreen",
+  "statusLine": {
+    "type": "command",
+    "command": "__HOME__/.claude/statusline.sh"
+  },
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": { "source": "github", "repo": "anthropics/claude-plugins-official" }
+    },
+    "claude-code-plugins": {
+      "source": { "source": "github", "repo": "anthropics/claude-code" }
+    }
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "Notion@claude-plugins-official": true,
+    "supabase@claude-plugins-official": true,
+    "mattpocock-skills@claude-plugins-official": true
+  }
+}
